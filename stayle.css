@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #1362ac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    background-color: rgb(133, 199, 253);
+    width: 100px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 4px dotted rgb(104, 136, 179);
+}
+
+.etiqueta{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 75px;
+}
+
+.button:hover{
+    background-color: #40739c;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(139, 193, 214);
+    border-bottom: 4px solid rgb(49, 149, 216);
+}
+
+.post:hover{
+    border-radius: 20px;
+    border: 4px dotted rgb(48, 109, 158);
+    background-color: #d0e7eb;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.article-but:hover{
+    border-radius: 5px;
+    background-color: #2769ca;
+}
+
+aside:hover{
+    color: rgba(223, 238, 245, 0.973);
+}
+
+.etiqueta:hover{
+    left: 380px;
+}
+
